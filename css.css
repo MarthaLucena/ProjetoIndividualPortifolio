@@ -1,0 +1,282 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+@media only screen and (max-device-width: 900px) {
+    }
+
+    @media only screen and (max-device-width: 900px) {
+        }
+
+        @media only screen and (max-device-width: 700px) {
+}
+
+
+body{
+    display: flex;
+    background-image: linear-gradient(to right, rgb(255, 255, 255),rgb(255, 255, 255), rgb(255, 255,255), rgb(255, 255, 255), rgb(255, 255, 255), rgb(209, 200, 200), rgb(197, 190, 190),rgb(158, 158, 158),rgb(122, 119, 119), rgb(0, 0, 0));
+}
+
+img{
+    display: flex;
+    width: 22rem;
+    position: absolute;
+    left: 0%;
+    padding-right: 0px;
+    border-end-end-radius: 42px;
+}
+
+.nome{
+    display: inline-flex;
+    justify-content: space-between;
+    font-family: 'Bebas Neue', cursive;
+    font-size:xx-large;
+    letter-spacing: 7px;
+    padding-top: 250px;
+    padding-left: 200px;
+}
+
+.nome #primeiro{
+    padding-right: 20px;
+}
+
+.nome #sobrenome{
+    background-color: rgb(44, 44, 44);
+    color: white;
+}
+
+nav{
+    display: flex;
+    font-size: xx-large;
+    font-family: 'Bebas Neue', cursive;
+    color: rgb(254, 254, 254);
+    position: absolute;
+    right: 3%;
+    padding-top: 5%;
+    padding-left: 0%;
+}
+
+
+.simbolo #simbolo{
+    display: flex;
+    font-size: 200px;
+    font-family: 'Bebas Neue', cursive;
+    color: rgb(254, 254, 254);
+    position: absolute;
+    right: 18%;
+    padding-top: 3.3%;
+    padding-left: 0%;
+}
+
+.descricao #descricao{
+    display: block;
+    font-size: 50px;
+    font-family: 'Bebas Neue', cursive;
+    padding-top: 450px;
+    padding-left: 10px;
+}
+.descricao #descricaotexto{
+    font-size: 25px;
+    font-family: 'Poiret One', cursive;
+    padding-left: 10px;
+    padding-top: 30px;
+    
+}
+
+
+
+.descricaoSoft {
+    display: inline-block;
+    font-size: 25px;
+    font-family: 'Poiret One', cursive;
+    padding-left: 10px;
+    padding-top: 100px;
+    
+}
+
+
+.soft #chaves{
+    display: flex;
+    font-size: 400px;
+    font-family: 'Bebas Neue', cursive;
+    color: rgb(27, 26, 26);
+    position: absolute;
+    right: 65%;
+    padding-left: 0%;
+    top: 1175px;
+}
+
+.soft #soft1{
+    display: flex;
+    font-size: 100px;
+    font-family: 'Bebas Neue', cursive;
+    color: rgb(27, 26, 26);
+    position: absolute;
+    right: 44%;
+    padding-left: 0%;
+    top: 1330px;
+    transform: rotate(-90deg);
+}
+
+
+.redesUm #redesUm{
+    display: block;
+    font-size: 50px;
+    font-family: 'Bebas Neue', cursive;
+    padding-top: 130px;
+    padding-left: 10px;
+    
+}
+
+
+.redesUm #redesSimbolo{
+    display: flex;
+    font-size: 400px;
+    font-family: 'Bebas Neue', cursive;
+    color: rgb(27, 26, 26);
+    position: absolute;
+    right: 78%;
+    padding-left: 0%;
+    top: 1665px;
+}
+
+.button #instagram{
+    height: 80px;
+    width: 80px;
+    background: rgb(225, 48, 108);
+    color: white;
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+    font-size: 17px;
+    float: left;
+    top: 50px;
+    position: relative;
+    border-bottom-right-radius: 360px;
+    border-start-end-radius: 360px;
+    border-bottom-left-radius: 360px;
+    border-start-start-radius: 360px;
+    left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.button2 #linkedin{
+    height: 80px;
+    width: 80px;
+    background: rgb(6, 137, 245);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 37px;
+    float: left;
+    top: 1890px;
+    position: absolute;
+    border-bottom-right-radius: 360px;
+    border-start-end-radius: 360px;
+    border-bottom-left-radius: 360px;
+    border-start-start-radius: 360px;
+    left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 900;
+    color: white;
+    
+}
+
+
+.siga #siga2{
+    display: flex;
+    font-size: 400px;
+    font-family: 'Bebas Neue', cursive;
+    color: rgb(27, 26, 26);
+    position: absolute;
+    right: 1100px;
+    padding-left: 0%;
+    top: 1640px;
+}
+
+.siga #siga{
+    display: flex;
+    font-size: 80px;
+    font-family: 'Bebas Neue', cursive;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    right: 700px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    top: 1817px;
+    background-color: black;
+}
+
+
+.contato #contato{
+    display: flex;
+    font-size: 50px;
+    font-family: 'Bebas Neue', cursive;
+    padding-top: 130px;
+    padding-left: 10px;
+    top: 1950px;
+    position: absolute;
+}
+
+
+form{
+    top: 2200px;
+    padding-top: 20px;
+    color: rgb(0, 0, 0);
+    display: inline;
+    position: absolute;
+    left: 20px;
+    border-image: 20px;
+    font-family: 'Poiret One', cursive;
+    font-weight:700;
+}
+
+.formNome #nome {
+    color: rgb(4, 4, 4));
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 300px;
+    height: 20px;
+    
+}
+.formEmail #email {
+    color: rgb(4, 4, 4);
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 300px;
+    height: 20px;
+    
+}
+.formNumber #telefone {
+    color: rgb(4, 4, 4));
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 300px;
+    height: 20px;   
+}
+
+.formMsg #mensagem {
+    color: rgb(4, 4, 4));
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 900px;
+    height: 200px;
+    
+}
+.formEnviar #enviar{
+    top: 20px;
+    color: rgb(4, 4, 4));
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 100px;
+    height: 40px;
+    font-family: 'Bebas Neue', cursive;
+        font-size: 30px;
+    
+}
